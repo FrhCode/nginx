@@ -2,7 +2,7 @@ server {
     listen 80;
     server_name yourney.be.farhandev.cloud www.yourney.be.farhandev.cloud;
 
-    return 301 https://www.yourney.be.farhandev.cloud$request_uri;
+    return 301 https://$host$request_uri;
 }
 
 server {
